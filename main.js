@@ -17,11 +17,11 @@ function initmap() {
 	map.addLayer(osm);
 }
 function whenClicked(e) {
-    console.log(e);
+    var t = e.target.feature.properties["_ID"];
+    window.location.assign(areas[t]);
 }
 
 function onEachFeature(feature, layer) {
-    //bind click
     layer.on({
         click: whenClicked
     });
