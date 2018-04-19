@@ -4,7 +4,8 @@ var ajaxRequest;
 var plotlist;
 var plotlayers=[];
 
-var key = '1OVQ1cJYJbHdzxvUW2sW_TdAcVpm6QfQYhB0KUyiyKf8';
+//var key = '1OVQ1cJYJbHdzxvUW2sW_TdAcVpm6QfQYhB0KUyiyKf8';
+var key = '1gVRoXiWSgHZO4eBN56VAAgHDwPKsAZnHt7_rRYX4xzM';
 var url = 'https://spreadsheets.google.com/feeds/list/'+key+'/od6/public/values?alt=json-in-script';
 
 var areas = {};
